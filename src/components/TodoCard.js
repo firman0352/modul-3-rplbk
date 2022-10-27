@@ -1,5 +1,6 @@
 import React from "react";
 
+// membuat komponen card dengan menggunakan fungsi state
 function TodoCard({ todo, setTodos, todos }) {
   const [isEdit, setIsEdit] = React.useState(false);
   const [todoEdit, setTodoEdit] = React.useState(todo);
@@ -12,6 +13,7 @@ function TodoCard({ todo, setTodos, todos }) {
     setIsEdit(false);
   };
 
+// membentuk styling
   return (
     <div
       style={{
