@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 const TodoForm = (props) => {
   const [todo, setTodo] = useState("");
+  //merekam event dari field input 
   const handleChangeInput = (e) => {
     setTodo(e.target.value);
   };
