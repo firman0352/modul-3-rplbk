@@ -6,6 +6,7 @@ const TodoForm = (props) => {
   const handleChangeInput = (e) => {
     setTodo(e.target.value);
   };
+  //membuat form beserta styling
   const { addNewTodo } = props;
   return (
     <form
